@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/blue_white2">
+    android:weightSum="6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Message Type : "
+            android:id="@+id/msg_type4"
+            android:layout_marginHorizontal="15dp"
+            android:gravity="left"
+            android:textSize="12dp"
+            android:paddingVertical="3dp"
+            android:textColor="#000000"/>
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Message date : "
+            android:id="@+id/msg_date4"
+            android:layout_marginRight="15dp"
+            android:gravity="right"
+            android:textSize="10dp"
+            android:paddingVertical="3dp"
+            android:textColor="#2E2B2B"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Message Title  : "
+        android:paddingVertical="3dp"
+        android:id="@+id/msg_title4"
+        android:textSize="12dp"
+        android:layout_marginHorizontal="15dp"
+        android:gravity="left"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msg_details4"
+        android:layout_marginHorizontal="15dp"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:layout_margin="30dp"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/share_btn2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="25dp"
+            android:text="SHARE"
+            android:layout_margin="15dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginHorizontal="15dp"/>
+
+        <TextView
+            android:id="@+id/pdf_path4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="NO PDF"
+            android:textSize="18dp"
+            android:textColor="#F10D0D"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="25dp"
+            android:text="Delete"
+            android:layout_margin="15dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorOrange"
+            android:layout_marginHorizontal="15dp"/>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

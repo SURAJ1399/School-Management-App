@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inbox">
+
+    <fragment
+        android:id="@+id/nav_inbox"
+        android:name="com.alramlawi.schoolapp.student.inbox.InboxFragment"
+        android:label="@string/menu_received"
+        tools:layout="@layout/fragment_inbox" />
+    <fragment
+        android:id="@+id/nav_track"
+        android:name="com.alramlawi.schoolapp.student.BlankFragment"
+        android:label="Track Your Bus"
+        tools:layout="@layout/fragment_blank" />
+    <fragment
+        android:id="@+id/nav_calender"
+        android:name="com.alramlawi.schoolapp.Calender"
+        android:label="Calender"
+        tools:layout="@layout/fragment_calender" />
+
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.alramlawi.schoolapp.student.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_contactUs"
+        android:name="com.alramlawi.schoolapp.student.contacUs.ContactUsFragment"
+        android:label="@string/menu_ContactUs"
+        tools:layout="@layout/fragment_contacts" />
+    <fragment
+        android:id="@+id/nav_helpCenter"
+        android:name="com.alramlawi.schoolapp.admin.contacUs.HelpCenter"
+        android:label="@string/menu_helpCenter"
+        tools:layout="@layout/help_center" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.alramlawi.schoolapp.Logout"
+        android:label="@string/menu_logout" />
+</navigation>

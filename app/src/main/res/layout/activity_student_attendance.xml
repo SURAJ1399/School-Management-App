@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue_white2"
+    android:weightSum="100"
+    android:padding="12dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+            android:layout_marginVertical="8dp">
+
+
+            <TextView
+                android:id="@+id/attStudentName"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Student Name"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"/>
+
+
+            <Spinner
+                android:id="@+id/teacher_name3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="right"
+                />
+
+
+        </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="4"
+                android:layout_height="0dp"
+                android:text="ATTENDANCE LIST"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center"/>
+
+    <ListView
+        android:id="@+id/List9"
+        android:foregroundGravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="88"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+</LinearLayout>

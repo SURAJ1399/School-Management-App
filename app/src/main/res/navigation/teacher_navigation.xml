@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_notice">
+
+    <fragment
+        android:id="@+id/nav_notice"
+        android:name="com.alramlawi.schoolapp.teacher.notice.NoticeFragment"
+        android:label="@string/menu_Notice"
+        tools:layout="@layout/fragment_notice" />
+
+    <fragment
+        android:id="@+id/nav_attendance"
+        android:name="com.alramlawi.schoolapp.teacher.attendance.AttendanceFragment"
+        android:label="@string/menu_attendance"
+        tools:layout="@layout/fragment_attendance" />
+    <fragment
+        android:id="@+id/nav_calender"
+        android:name="com.alramlawi.schoolapp.Calender"
+        android:label="Calender"
+        tools:layout="@layout/fragment_calender" />
+
+
+    <fragment
+        android:id="@+id/nav_requests"
+        android:name="com.alramlawi.schoolapp.teacher.requests.RequestsFragment"
+        android:label="@string/menu_requests"
+        tools:layout="@layout/fragment_requests" />
+
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.alramlawi.schoolapp.teacher.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_contactUs"
+        android:name="com.alramlawi.schoolapp.teacher.contacUs.ContactUsFragment"
+        android:label="@string/menu_ContactUs"
+        tools:layout="@layout/fragment_contacts" />
+
+    <fragment
+        android:id="@+id/nav_helpCenter"
+        android:name="com.alramlawi.schoolapp.admin.contacUs.HelpCenter"
+        android:label="@string/menu_helpCenter"
+        tools:layout="@layout/help_center" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.alramlawi.schoolapp.Logout"
+        android:label="@string/menu_logout" />
+</navigation>

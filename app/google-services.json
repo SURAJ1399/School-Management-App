@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "708496091521",
+    "firebase_url": "https://icsblr.firebaseio.com",
+    "project_id": "icsblr",
+    "storage_bucket": "icsblr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708496091521:android:21e84b609de4769315a080",
+        "android_client_info": {
+          "package_name": "com.alramlawi.schoolappold"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708496091521-dh8c9lnnt07mjbsej1v037sqi8u6sis0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh9ikhTpTvC6cJWES1VUMLdr61GYZf--M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708496091521-dh8c9lnnt07mjbsej1v037sqi8u6sis0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_leavings">
+
+    <fragment
+        android:id="@+id/nav_leavings"
+        android:name="com.alramlawi.schoolapp.parent.leavings.LeavingsFragment"
+        android:label="@string/menu_leavings"
+        tools:layout="@layout/fragment_leavings" />
+    <fragment
+        android:id="@+id/nav_sms"
+        android:name="com.alramlawi.schoolapp.admin.SmsFragment"
+        android:label="Send SMS"
+        tools:layout="@layout/fragment_sms"/>
+    <fragment
+        android:id="@+id/nav_calender"
+        android:name="com.alramlawi.schoolapp.Calender"
+        android:label="Calender"
+        tools:layout="@layout/fragment_calender" />
+
+
+    <fragment
+        android:id="@+id/nav_viewing"
+        android:name="com.alramlawi.schoolapp.parent.view.ViewFragment"
+        android:label="@string/menu_view"
+        tools:layout="@layout/fragment_view"/>
+    <fragment
+        android:id="@+id/track"
+        android:name="com.alramlawi.schoolapp.parent.TrackFragment"
+        android:label="Track"
+        tools:layout="@layout/fragment_track"/>
+    <fragment
+        android:id="@+id/nav_pay"
+        android:name="com.alramlawi.schoolapp.parent.PayFragment"
+        android:label="@string/menu_pay"
+        tools:layout="@layout/fragment_pay"/>
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.alramlawi.schoolapp.parent.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+
+    <fragment
+        android:id="@+id/nav_contactUs"
+        android:name="com.alramlawi.schoolapp.parent.contacUs.ContactUsFragment"
+        android:label="@string/menu_ContactUs"
+        tools:layout="@layout/fragment_contacts" />
+
+    <fragment
+        android:id="@+id/nav_helpCenter"
+        android:name="com.alramlawi.schoolapp.admin.contacUs.HelpCenter"
+        android:label="@string/menu_helpCenter"
+        tools:layout="@layout/help_center" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.alramlawi.schoolapp.Logout"
+        android:label="@string/menu_logout" />
+</navigation>

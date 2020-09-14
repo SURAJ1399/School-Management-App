@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.alramlawi.schoolapp.Calender">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.shrikanthravi.collapsiblecalendarview.widget.CollapsibleCalendar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendarView"
+
+        app:primaryColor="#2C2A2A"
+        app:textColor="#ECE8E8"
+        app:selectedItem_textColor="#0F0F0F"
+        app:todayItem_textColor="@android:color/white"
+        app:todayItem_background="@drawable/circle_white_stroke_background"
+        app:selectedItem_background="@drawable/circle_white_solid_background"
+        app:buttonLeft_drawableTintColor="@android:color/white"
+        app:buttonRight_drawableTintColor="@android:color/white"
+        app:expandIconColor="@android:color/white"
+        tools:ignore="MissingConstraints">
+    </com.shrikanthravi.collapsiblecalendarview.widget.CollapsibleCalendar>
+
+
+</FrameLayout>

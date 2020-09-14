@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue_white2"
+    android:padding="12dp"
+    android:weightSum="100"
+    tools:context=".admin.Admin">
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="#E8E8E8"
+        app:fillColor="#fff"
+        android:layout_marginTop="9dp"
+        app:indicatorVisibility="invisible"
+        app:pageColor="#fff"
+        app:radius="0dp"
+        app:slideInterval="2000"
+        app:snap="false" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Approvals Inbox"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:paddingTop="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        ></TextView>
+
+    <ListView
+        android:id="@+id/approvalList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:layout_marginTop="15dp"
+        android:background="#FFFFFF"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        ></Space>
+
+
+
+</LinearLayout>

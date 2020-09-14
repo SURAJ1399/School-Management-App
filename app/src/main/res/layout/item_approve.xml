@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+    android:weightSum="6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Message Type : "
+            android:id="@+id/msg_type1"
+            android:layout_marginHorizontal="15dp"
+            android:gravity="left"
+            android:textSize="12dp"
+            android:paddingVertical="3dp"
+            android:textColor="#000000"/>
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Message date : "
+            android:id="@+id/msg_date1"
+            android:layout_marginRight="15dp"
+            android:gravity="right"
+            android:textSize="10dp"
+            android:paddingVertical="3dp"
+            android:textColor="#2E2B2B" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Target Group   : "
+        android:id="@+id/msg_target1"
+        android:textSize="12dp"
+        android:layout_marginHorizontal="15dp"
+        android:gravity="left"
+        android:paddingVertical="3dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Message Title  : "
+        android:paddingVertical="3dp"
+        android:id="@+id/msg_title1"
+        android:textSize="12dp"
+        android:layout_marginHorizontal="15dp"
+        android:gravity="left"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msg_details1"
+        android:layout_marginHorizontal="15dp"
+        android:textStyle="bold"
+        android:layout_margin="30dp"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/approveBN1"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_weight="2"
+            android:background="@color/colorPrimaryDark"
+            android:text="approve"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/pdf_path1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="NO PDF"
+            android:textSize="12dp"
+            android:textColor="#F10D0D"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            />
+        <Button
+            android:id="@+id/share_btn1"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="25dp"
+            android:text="SHARE PDF"
+            android:layout_margin="15dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorOrange"
+            android:layout_marginHorizontal="15dp"/>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

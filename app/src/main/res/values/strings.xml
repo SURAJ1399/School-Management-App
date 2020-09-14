@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SCHOOL_1</string>
+    <string name="title_activity_teacher">Teacher</string>
+    <string name="title_activity_parents">Parent</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_activity_student">Student</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="school_nav_header_title">School Name</string>
+    <string name="teacher_nav_header_subtitle">Teacher Dashboard</string>
+    <string name="admin_nav_header_subtitle">Admin Dashboard</string>
+    <string name="parent_nav_header_subtitle">Parent Dashboard</string>
+    <string name="student_nav_header_subtitle">Student Dashboard</string>
+
+    <string name="nav_header_desc">Navigation Header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_leavings">Leaving Request</string>
+    <string name="menu_view">Attachments View</string>
+    <string name="menu_received">Received Inbox</string>
+    <string name="menu_pay">PAY FEE</string>
+    <string name="Api_key">"rzp_test_bx7PtjGJBbaHus"</string>
+
+
+    <string name="menu_approvals">Approvals</string>
+    <string name="menu_studentStat">Students State</string>
+
+    <string name="menu_attendance">Attendance</string>
+    <string name="menu_requests">Leaving Requests</string>
+    <string name="menu_Notice">Notes And Assignments</string>
+    <string name="menu_assignments">Assignments</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_ContactUs">Contact Us</string>
+    <string name="menu_helpCenter">Help Center</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alramlawi.schoolapp.parent.TrackFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="45dp"
+        android:id="@+id/track"
+        android:background="#FFC400"
+        android:layout_gravity="center_vertical"
+        android:text="Click To Track" />
+</FrameLayout>

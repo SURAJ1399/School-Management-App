@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/blue_white2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FEE DETAILS "
+        android:textSize="32dp"
+
+        android:textColor="#00B0FF"></TextView>
+
+    <TextView
+        android:id="@+id/payment_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="Student name"
+        android:textColor="#FF3D00"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/payment_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="student name"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/payment_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="student name"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/payment_fee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="FEE"
+        android:textColor="#D500F9"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/payment_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pay with razorpay"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="#651FFF"/>
+    <Button
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UNPAID FOR  THIS MONTH"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="true"
+        android:layout_marginHorizontal="20dp"
+        android:background="#F50057"/>
+
+
+
+
+
+</LinearLayout>

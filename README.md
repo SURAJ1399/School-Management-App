@@ -18,8 +18,7 @@ A School Management App with  Student,Teacher ,Parents and Admin Panel
 
 </div>
 <div class="row">
-    <img src="https://github.com/SURAJ1399/Images/blob/master/tia1231725258295931946.png" width="30%">
-<img src="https://github.com/SURAJ1399/Images/blob/master/tia1817541210825255763.png" width="30%">
+  
 
   <img src="https://github.com/SURAJ1399/Images/blob/master/tia1003524854135331.png" width="30%">
 
